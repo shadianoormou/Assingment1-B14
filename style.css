@@ -57,12 +57,12 @@ body{
 
 .links a{
     text-decoration:none;
-    color:#111827;
+    color:#0a0c11;
     font-weight:500;
 }
 
 .links a:hover{
-    color:#1218bf;
+    color:#4549b5;
 }
 
 .btn{
@@ -74,7 +74,7 @@ body{
     cursor:pointer;
 }
 .btn:hover{
-    background:#1218bf;
+    background:#3c40ba;
 }
 
 .hero{
@@ -107,7 +107,7 @@ body{
 }
 
 .hero em{
-    color:#1218bf;
+    color:#b1b2d3;
 }
 
 .hero p{
