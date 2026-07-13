@@ -221,11 +221,6 @@ body{
     margin-bottom:15px;
 }
 
-.section-title p{
-    color:#6b7280;
-    font-size:17px;
-}
-
 .speaker-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
@@ -273,5 +268,159 @@ body{
     margin:0 20px 25px;
     color:#6b7280;
     font-size:16px;
+
+}
+
+
+/* Pricing*/
+
+.pricing{
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.pricing-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-heading h2{
+    font-size: 48px;
+    color: #0F172A;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.pricing-heading p{
+    color: #64748B;
+    font-size: 15px;
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.pricing-card{
+    background: #ffffff;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    padding: 25px;
+
+}
+
+.pricing-card h5{
+
+    color: #94A3B8;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.pricing-card h1{
+    font-size: 50px;
+    color: #0F172A;
+
+}
+
+.pricing-card span{
+    display: block;
+    color: #94A3B8;
+    font-size: 13px;
+    margin: 5px 0 20px;
+
+}
+
+.pricing-card hr{
+    border: none;
+    border-top: 1px solid #E2E8F0;
+    margin-bottom: 20px;
+
+}
+.pricing-card ul{
+
+    list-style: none;
+    margin-bottom: 30px;
+
+}
+
+.pricing-card ul li{
+
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 12px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+
+.pricing-card ul li::before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    background: #2563EB;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 9px;
+
+}
+
+.outline-btn{
+
+    width: 100%;
+    padding: 12px;
+    background: white;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.primary-btn{
+    width: 100%;
+    padding: 12px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+
+.pro-card{
+
+    background: #0F172A;
+    transform: scale(1.03);
+
+}
+
+.pro-card h5,
+.pro-card h1,
+.pro-card span{
+
+    color: white;
+
+}
+
+.pro-card hr{
+    border-top: 1px solid rgba(255,255,255,.15);
+
+}
+
+.pro-card ul li{
+    color: #CBD5E1;
+
+}
+
+.pro-card ul li::before{
+    background: #3B82F6;
 
 }
