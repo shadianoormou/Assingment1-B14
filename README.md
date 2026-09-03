@@ -90,17 +90,10 @@ Assingment1-B14-main/
 
 -----
 
-## 🌐 Live Demo
-
-**Live Demo:**  
-YOUR_LIVE_DEMO_LINK
-
----
-
 ## 🔗 Project Links
 
-- **GitHub Repository:** [YOUR_GITHUB_REPOSITORY_LINK](https://github.com/shadianoormou/Assingment1-B14)
-- **Live Website:** [YOUR_LIVE_DEMO_LINK](https://shadianoormou.github.io/Assingment1-B14/)
+- **GitHub Repository:** [GITHUB_REPOSITORY_LINK](https://github.com/shadianoormou/Assingment1-B14)
+- **Live Website:** [LIVE_DEMO_LINK](https://shadianoormou.github.io/Assingment1-B14/)
 
 ---
 
